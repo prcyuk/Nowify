@@ -13,7 +13,11 @@
   padding: var(--spacing-l);
   width: 100%;
 
-  &__cover,
+  &__cover {
+    padding: 10px;
+    width: 100%;
+  }
+  
   &__details {
     padding: var(--spacing-m);
     text-align: center;
@@ -21,7 +25,7 @@
   }
 
   &__cover {
-    max-width: 400px;
+    max-width: 800px;
   }
 
   &__image {
@@ -33,6 +37,7 @@
 
   &__details {
     text-align: center;
+    justify-content: center;
   }
 
   &__track {
